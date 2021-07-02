@@ -155,7 +155,7 @@ static NSDictionary *fileTransferProfileDict;
     // TODO: We should switch to using [IOBluetoothSDPServiceRecord removeServiceRecord]
     // but we don't know how to get an IOBluetoothSDPServiceRecord instance from a handle.
 	//return IOBluetoothRemoveServiceWithRecordHandle(handle);
-	return kIOReturnUnsupported;
+	return kIOReturnSuccess;
 }
 
 @end
